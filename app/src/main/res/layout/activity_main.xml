@@ -31,4 +31,39 @@
         android:gravity="end"
         android:text="TextView"
         android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/starGroup"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:id="@+id/ivStar1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            app:srcCompat="@android:drawable/btn_star" />
+        <ImageView
+            android:id="@+id/ivStar2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            app:srcCompat="@android:drawable/btn_star" />
+        <ImageView
+            android:id="@+id/ivStar3"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            app:srcCompat="@android:drawable/btn_star" />
+        <ImageView
+            android:id="@+id/ivStar4"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            app:srcCompat="@android:drawable/btn_star" />
+
+        <ImageView
+            android:id="@+id/ivStar5"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            app:srcCompat="@android:drawable/btn_star" />
+    </LinearLayout>
 </LinearLayout>
