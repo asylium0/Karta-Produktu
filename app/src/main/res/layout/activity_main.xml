@@ -20,7 +20,7 @@
         android:id="@+id/tvProductName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="@string/tv_product_name"
         android:textSize="50sp"
         android:textStyle="bold" />
 
@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="end"
-        android:text="TextView"
+        android:text="@string/tv_price"
         android:textSize="30sp" />
 
     <LinearLayout
@@ -76,11 +76,13 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="3"
-            android:id="@+id/btnBasket"/>
+            android:id="@+id/btnBasket"
+            android:text="@string/btn_basket"/>
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2"
-            android:id="@+id/btnBuy"/>
+            android:id="@+id/btnBuy"
+            android:text="@string/btn_buy"/>
     </LinearLayout>
 </LinearLayout>

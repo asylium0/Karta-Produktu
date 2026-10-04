@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Karta Produktu</string>
+    <string name="tv_product_name">Super Produkt!!!</string>
+    <string name="tv_price">3999.99 PLN</string>
+    <string name="btn_basket">DODAJ DO KOSZYKA</string>
+    <string name="btn_buy">KUP TERAZ</string>
 </resources>
